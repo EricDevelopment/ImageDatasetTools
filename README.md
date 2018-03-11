@@ -11,3 +11,8 @@ Example usage: ./makeLabelFiles.sh imagesDirectory/
 # euclid.py
 This is just a copy of a useful image annotation tool that I found to be useful from here: https://github.com/prabindh/euclid
 It supports the KITTI dataset format used by NVIDIA DIGITS for object detection. I recommend running the makeLabelFiles script first, as euclid will not make a .txt file for an image if no bounding boxes are drawn, which causes problems in DIGITS.
+
+# piCam.sh
+This is a small utility I made using fswebcam to take images using a USB webcam at a given rate. Command-line argument is pause time in seconds between captures. It is really more of a time-lapse script for collecting training images for machine-learning object detection.
+
+Example for 1 fps: ./piCam.sh 1
