@@ -16,3 +16,7 @@ It supports the KITTI dataset format used by NVIDIA DIGITS for object detection.
 This is a small utility I made using fswebcam to take images using a USB webcam at a given rate. Command-line argument is pause time in seconds between captures. It is really more of a time-lapse script for collecting training images for machine-learning object detection.
 
 Example for 1 fps: ./piCam.sh 1
+
+# multiclassDetectnet
+
+This is a version of NVIDIA's Detectnet caffe prototxt for object detection that I modified to support detection models on several classes at once. Instructions for use are included in the top of the file. Information about Detectnet can be found here: https://devblogs.nvidia.com/detectnet-deep-neural-network-object-detection-digits/
