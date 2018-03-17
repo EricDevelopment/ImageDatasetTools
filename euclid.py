@@ -461,7 +461,7 @@ class Euclid():
                     f.write(' 0.0 0 0.0 ')
                     #f.write(str(bbox[0])+' '+str(bbox[1])+' '+str(bbox[2])+' '+str(bbox[3]))
                     f.write('%.2f %.2f %.2f %.2f' % (bbox[0], bbox[1], bbox[2], bbox[3]))                 
-                    f.write(' 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 ')
+                    f.write(' 0.0 0.0 0.0 0.0 0.0 0.0 0.0 ')
                     f.write('\n')
                     labelCnt = labelCnt+1
             self.updateStatus ('Label Image No. %d saved' %(self.cur))
